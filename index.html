@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Conference</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.13.0/mapbox-gl.css" rel="stylesheet">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#timetable">Schedule</a></li>
+                <li><a href="#map">Location</a></li>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>The Future is Now</h1>
+        <h2>School of Media and IT Mini Conference in AI</h2>
+        <h3>26.5.2023 | 9:00am - 18:00pm</h3>
+        <nav id="navigation">
+            <a href="#header"><img src="media/white-home-icon-png-21.jpeg" alt=" home icon"></a>
+            <ul>
+                <a href="#about">About</a>
+                <a href="#timetable">Schedule</a>
+                <a href="#map">Location</a>
+                <a href="#register">Register</a>
+                <a href="#contact">Contact</a>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <p>Explore the diverse applications of AI, the challenges and opportunities that come with its development,
+            and how it can be leveraged to make a positive impact on society. We look forward to engaging in meaningful
+            conversations that will further the progress of AI and its potential to shape the future.
+        </p>
+    </section>
+    <section id="gallery">
+        <div id="grid">
+            <div>
+                <img src="media/mark_anderson.png" alt="Mark Anderson">
+                <h3>Mark Anderson</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quod ipsa ab deserunt earum.
+                    Assumenda veritatis, ratione alias voluptate adipisci reprehenderit quasi asperiores, corporis nisi,
+                    temporibus et accusantium eaque est!
+                </p>
+            </div>
+            <div>
+                <img src="media/sarah_johnson.png" alt="Sarah Johnson">
+                <h3>Sarah Johnson</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque quia placeat dolorum, vero quis
+                    dicta sed alias? Quidem praesentium voluptatum officiis ducimus commodi qui iusto. Totam
+                    reprehenderit quidem in odit!
+                </p>
+            </div>
+            <div>
+                <img src="media/jennifer_williams.png" alt="Jennifer Williams">
+                <h3>Jennifer Williams</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore rem id at repellendus quo voluptates
+                    vero doloremque magni commodi, ratione quos facere natus nihil iure officiis laboriosam qui nemo
+                    corrupti!
+                </p>
+            </div>
+            <div>
+                <img src="media/rebecca_jones.png" alt="Rebecca Jones">
+                <h3>Rebecca Jones</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam reiciendis eos deserunt delectus
+                    eligendi rerum vero facilis, eius doloremque deleniti error veritatis quidem cupiditate aspernatur,
+                    ea nemo architecto perspiciatis magnam.
+                </p>
+            </div>
+            <div>
+                <img src="media/andrew_smith.png" alt="Andrew Smith">
+                <h3>Andrew Smith</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore quidem consectetur quibusdam minima,
+                    aliquid error reprehenderit, hic dicta, repellat distinctio adipisci commodi similique dolorum quos
+                    aperiam ab culpa inventore sunt.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="timetable">
+        <h2>Schedule</h2>
+        <table>
+            <tr>
+                <th>Time</th>
+                <th>Event</th>
+                <th>Speaker</th>
+            </tr>
+            <tr>
+                <td>8:00am - 9:00am</td>
+                <td>Doors open and registration</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>9:00am - 9:30am</td>
+                <td>Opening remarks</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>9:30am - 10:30am</td>
+                <td>Introduction to AI</td>
+                <td>Mark Anderson</td>
+            </tr>
+            <tr>
+                <td>10:30am - 11:30am</td>
+                <td>AI Applications in Healthcare</td>
+                <td>Sarah Johnson</td>
+            </tr>
+            <tr>
+                <td>11:30am - 12:30pm</td>
+                <td>Workshop 1: Developing AI Algorithms</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>12:30pm - 1:30pm</td>
+                <td>Lunch</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>1:30pm - 2:30pm</td>
+                <td>Machine Learning</td>
+                <td>Jennifer Williams</td>
+            </tr>
+            <tr>
+                <td>2:30pm - 3:30pm</td>
+                <td>Natural Language Processing</td>
+                <td>Andrew Smith</td>
+            </tr>
+            <tr>
+                <td>3:30pm - 4:30pm</td>
+                <td>Workshop 2: Implementing AI in Business</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>4:30pm - 5:30pm</td>
+                <td>AI and the Future</td>
+                <td>Rebecca Jones</td>
+            </tr>
+            <tr>
+                <td>5:30pm - 6:00pm</td>
+                <td>Closing remarks and networking</td>
+                <td>N/A</td>
+            </tr>
+        </table>
+    </section>
+    <section id="location">
+        <div id="map">
+        </div>
+    </section>
+    <section id="register">
+        <form id="form">
+            <h2>Register</h2>
+            <div class="form-group">
+                <label for="name"><strong>Name</strong></label>
+                <input type="text" name="name" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer id="contact">
+        <div id="logo">
+            <img src="media/pcu_logo.png" alt="pcu logo">
+        </div>
+        <div id="links">
+            <a href="https://www.facebook.com/PragueCityUniversity" target="_blank">
+                <img src="media/facebook-logo-2019.svg" alt="facebook logo">
+            </a>
+            <a href="https://www.instagram.com/praguecityuniversity/" target="_blank">
+                <img src="media/instagram.svg" alt="instagram logo">
+            </a>
+            <a href="https://twitter.com/PragueCityUni" target="_blank">
+                <img src="media/twitter.svg" alt="twitter logo">
+            </a>
+            <a href="https://www.linkedin.com/school/prague-city-university/" target="_blank">
+                <img src="media/linkedin.svg" alt="linkedin logo">
+            </a>
+            <a href="https://www.youtube.com/channel/UCtJM41jXN0JSVFM2pxuAzGw" target="_blank">
+                <img src="media/youtube.svg" alt="youtube logo">
+            </a>
+            <a href="https://www.flickr.com/photos/praguecityuniversity/albums" target="_blank">
+                <img src="media/flickr.svg" alt="flickr logo">
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
