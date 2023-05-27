@@ -39,6 +39,7 @@ header {
     background-image: url(media/building-gffc2a384e_1920.jpg);
     background-position: center;
     background-repeat: no-repeat;
+    position: sticky;
     height: 100vh;
     color: #fff;
     top: 0;
@@ -330,9 +331,8 @@ footer a:hover img {
 }
 
 @media (max-width: 730px) {
-
     header {
-        position: sticky;
+        position: relative;
     }
 
     #navigation {
