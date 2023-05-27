@@ -147,6 +147,12 @@ section {
     color: #fff;
 }
 
+#schedule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #timetable h2 {
     text-transform: uppercase;
     text-align: center;
@@ -154,7 +160,6 @@ section {
 }
 
 table {
-    width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
 }
@@ -326,6 +331,11 @@ footer a:hover img {
 }
 
 @media (max-width: 730px) {
+
+    header {
+        position: sticky;
+    }
+
     #navigation {
         display: none;
     }
@@ -418,5 +428,13 @@ footer a:hover img {
     #hamburger.x span:nth-child(4) {
         top: 18px;
         opacity: 0;
+    }
+}
+
+@media (max-width: 460px) {
+    #schedule {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
